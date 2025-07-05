@@ -36,17 +36,14 @@
 
 <key>CFBundleURLTypes</key>
 <array>
-    <dict>
-        <key>CFBundleTypeRole</key>
-        <string>Editor</string>
-        <key>CFBundleURLSchemes</key>
-        <array>
-		       <string>firebase id</string>
-		   <string>face book app id</string>
-            <string>google app id</string>
-        </array>
-    </dict>
-    
+  <dict>
+    <key>CFBundleTypeRole</key>
+    <string>Editor</string>
+    <key>CFBundleURLSchemes</key>
+    <array>
+      <string>fb508348758820675</string>
+    </array>
+  </dict>
 </array>
 
 
@@ -55,11 +52,11 @@
  
 
 <key>FacebookAppID</key>
-<string>FacebookAppID</string>
+<string>508348758820675</string>
 <key>FacebookClientToken</key>
-<string>FacebookClientToken</string>
+<string>e3642fa3199e43bd4752816de4e8cfe0</string>
 <key>FacebookDisplayName</key>
-<string>FacebookDisplayName</string>
+<string>Social Media Sign in</string>
 
 
 

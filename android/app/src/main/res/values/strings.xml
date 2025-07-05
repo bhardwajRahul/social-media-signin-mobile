@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">social_media_sign</string>
+    <string name="facebook_app_id">508348758820675</string>
+    <string name="facebook_client_token">e3642fa3199e43bd4752816de4e8cfe0</string>
+</resources>

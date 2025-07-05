@@ -25,7 +25,10 @@ class _SignInScreenState extends State<SignInScreen> {
 
   Future<void> _loginWithFacebook() async {
     try {
-      final LoginResult result = await FacebookAuth.instance.login();
+      await FacebookAuth.instance.logOut();
+      final LoginResult result = await FacebookAuth.instance.login(
+        permissions: ['email', 'public_profile'],
+      );
 
       if (result.status == LoginStatus.success) {
         _accessToken = result.accessToken;
